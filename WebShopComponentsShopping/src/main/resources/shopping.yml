@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Shopping_service
+
+    spring: cloud:
+              config:
+              url:
+                http://localhost:7070
+
+  management.security.enabled=false

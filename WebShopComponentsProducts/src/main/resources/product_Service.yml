@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: product_Service
+
+    spring: cloud:
+              config:
+              url:
+                http://localhost:7070
+
+  management.security.enabled=false

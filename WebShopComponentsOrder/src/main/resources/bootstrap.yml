@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Order_service
+
+    spring: cloud:
+            config:
+            url:
+              http://localhost:7070
+
+  management.security.enabled=false
